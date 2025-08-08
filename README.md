@@ -31,7 +31,7 @@
 
 - gps-denied environment working with non-holonomic vehicle dynamics for mobile autonomous vehicle
 - led the project for a robot to use an adaptive control theory extremum seeking to take a scalar signal and get the gradient in order to find the maximum point for our cost value meaning we want to get the maximum value of something like light or sound. these are the sources that we worked with
-<img src="./images/profile.jpeg">
+<img src="./images/light-source.jpeg">
 
 <img src="./images/profile.jpeg">
 
