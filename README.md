@@ -29,11 +29,12 @@
 
 1) Thesis project
 
+In the design of 
 - gps-denied environment working with non-holonomic vehicle dynamics for mobile autonomous vehicle
 - led the project for a robot to use an adaptive control theory extremum seeking to take a scalar signal and get the gradient in order to find the maximum point for our cost value meaning we want to get the maximum value of something like light or sound. these are the sources that we worked with
-<img align="left" width="200" height="250" src="/images/light-source.png">
+<img align="left" width="200" height="250" src="./images/light-source.png">
 
-<img align="right" width="200" height="250" src="/images/rotating-frame.png">
+<img align="right" width="200" height="250" src="./images/rotating-frame.png">
 
 
 ### Publications
