@@ -4,11 +4,11 @@
 
 ## Education
 1) San Diego State Univerity
-- Master of Science, Mechanical Engineering, Emphasis robotics, control, autonomous systems
-- August 2021 -> May 2024
+   - Master of Science, Mechanical Engineering, Emphasis robotics, control, autonomous systems
+   - August 2021 -> May 2024
 2) California state university, Chico
-- Bachelor of science (BS), Mecatronics, Robotics and Automation Engineering
-- August 2013 -> May 2018
+   - Bachelor of science (BS), Mecatronics, Robotics and Automation Engineering
+   - August 2013 -> May 2018
 
 ## Work Experience
 1) San Diego State University
