@@ -46,7 +46,10 @@ Now I did not start doing testing on the vehicle immediately in order to test ho
 2) course design more in depth on the course design we used gazebo and ros in order to design a deep learning course there were multiple parts to the course which can be found on the construct website which is used to teach industry folks students and anyone who wants to get into the robotics software development industry how to work with the code and create worlds with simulation and test different methods and theories without needing to buy a robot. 
 
 3) Undergrad project robot pet waste collector
-Pet waste collector robot that was intended to be a robot that can autonomously navigate an area identify pet waste and collect it. Very complicated project that frankly was too much for some seniors to deal with having no experience with autonomous vehicles. We designed a novel pickup mechanism for the robot as well as the computer vision detection of pet waste up to 89% accuracy in identifying pet waste (lots of photos were needed) with that in mind we then were able to focus on the pet pickup mechanism which used a spike puck in order to get the the poop no vacum no scooping mechanism instead the puck would apply pressure and then absorb the poop in the puck. 
+Pet waste collector robot that was intended to be a robot that can autonomously navigate an area identify pet waste and collect it. Very complicated project that frankly was too much for some seniors to deal with having no experience with autonomous vehicles. We designed a novel pickup mechanism for the robot as well as the computer vision detection of pet waste up to 89% accuracy in identifying pet waste (lots of photos were needed) with that in mind we then were able to focus on the pet pickup mechanism which used a spike puck in order to get the the poop no vacum no scooping mechanism instead the puck would apply pressure and then absorb the poop in the puck.
+
+<img align="right" width="200" height="250" src="./images/pet_robot.jpeg">
+
 ### Publications
 
 <a id="1">[1]</a> 
