@@ -70,6 +70,16 @@ Now I did not start doing testing on the vehicle immediately in order to test ho
 Pet waste collector robot that was intended to be a robot that can autonomously navigate an area identify pet waste and collect it. Very complicated project that frankly was too much for some seniors to deal with having no experience with autonomous vehicles. We designed a novel pickup mechanism for the robot as well as the computer vision detection of pet waste up to 89% accuracy in identifying pet waste (lots of photos were needed) with that in mind we then were able to focus on the pet pickup mechanism which used a spike puck in order to get the the poop no vacum no scooping mechanism instead the puck would apply pressure and then absorb the poop in the puck.
 
 <img align="right" width="200" height="250" src="./images/pet_robot.jpeg">
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 ### Publications
 
