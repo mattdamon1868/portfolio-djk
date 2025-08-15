@@ -30,7 +30,7 @@
    <img align="left" width="200" height="250" src="./images/control_panel.png">
    
    <img align="right"  width="250" height="200" src="./images/honeywel-controller.png">
-
+<br />
 ## Projects
 
 1) Thesis project
