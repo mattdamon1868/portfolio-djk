@@ -44,6 +44,8 @@ Now I did not start doing testing on the vehicle immediately in order to test ho
 
 <img align="right" width="200" height="250" src="./images/rotating-frame.png">
 
+[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
+
 2) course design more in depth on the course design we used gazebo and ros in order to design a deep learning course there were multiple parts to the course which can be found on the construct website which is used to teach industry folks students and anyone who wants to get into the robotics software development industry how to work with the code and create worlds with simulation and test different methods and theories without needing to buy a robot. 
 
 3) Undergrad project robot pet waste collector
