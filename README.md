@@ -58,7 +58,7 @@ Now I did not start doing testing on the vehicle immediately in order to test ho
 
 <img align="right" width="200" height="250" src="./images/rotating-frame.png">
 
-[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://github.com/mattdamon1868/portfolio-djk/blob/main/videos/light-source-seeking-rotating-0-degree.mp4)
+[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://www.youtube.com/watch?v=K2YwE-z4ytc)
 <br />
 <br />
 <br />
