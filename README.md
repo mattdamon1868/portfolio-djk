@@ -56,8 +56,9 @@ This project required using hardware software and mechanical engineering skills 
 <img align="left" width="200" height="250" src="./images/light-source.png">
 
 <img align="right" width="200" height="250" src="./images/rotating-frame.png">
-
-[![Watch the video](https://github.com/mattdamon1868/portfolio-djk/blob/main/images/tb3_thmb.png | width =200)](https://www.youtube.com/watch?v=K2YwE-z4ytc)
+<br />
+<br />
+[![Watch the video](https://github.com/mattdamon1868/portfolio-djk/blob/main/images/tb3_thmb.png)](https://www.youtube.com/watch?v=K2YwE-z4ytc)
 <br />
 <br />
 <br />
