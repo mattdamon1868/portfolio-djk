@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dylan James‑Kavanaugh — Portfolio</title>
+  <style>
+    :root{
+      --fg:#0f172a;
+      --muted:#475569;
+      --bg:#fafafa;
+      --card:#ffffff;
+      --accent:#1e40af;
+      --border:#e5e7eb;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:900px;margin:48px auto;padding:0 20px}
+    header{margin-bottom:28px}
+    header h1{margin:0 0 6px;font-size:2rem;letter-spacing:.2px}
+    header p{margin:0;color:var(--muted)}
+    .note{padding:10px 14px;background:#eef2ff;border:1px solid #c7d2fe;border-radius:10px;margin-bottom:18px;color:#111827}
+    section{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;margin:18px 0}
+    h2{margin:0 0 14px;font-size:1.3rem}
+    h3{margin:.8em 0 .35em;font-size:1.05rem}
+    ul{margin:.3em 0 .8em 1.2em}
+    li{margin:.35em 0}
+    .item{margin-bottom:16px}
+    .org{font-weight:600}
+    .role{font-weight:600}
+    .dates{color:var(--muted);font-size:.95rem}
+    .grid-2{display:grid;grid-template-columns:1fr;gap:14px}
+    @media(min-width:820px){.grid-2{grid-template-columns:1fr 1fr}}
+    figure.image-row{display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:10px;margin:10px 0}
+    figure.image-row img{width:100%;height:auto;border:1px solid var(--border);border-radius:10px}
+    .images-inline{display:flex;gap:10px;flex-wrap:wrap}
+    .images-inline img{border:1px solid var(--border);border-radius:10px;max-width:100%;height:auto}
+    details{margin-top:8px}
+    footer{color:var(--muted);font-size:.9rem;margin:24px 0 10px}
+    .pub-list{padding-left:1.2em}
+    .pub-list li{margin:.7em 0}
+    .thumb{max-width:240px;border:1px solid var(--border);border-radius:10px}
+    .media{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap}
+    .small{font-size:.95rem}
+    .indent{margin-left:1.2em}
+    .pill{display:inline-block;padding:2px 8px;border:1px solid var(--border);border-radius:999px;background:#f8fafc;color:#0f172a;font-size:.85rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Dylan James‑Kavanaugh</h1>
+      <p class="small">Robotics • Control • Autonomous Systems</p>
+    </header>
+
+    <div class="note">Note: for projects and work experience everything is ordered from present to past.</div>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="item">
+        <div class="org">San Diego State University</div>
+        <div class="indent">Master of Science — Mechanical Engineering (Robotics, Control, Autonomous Systems)</div>
+        <div class="dates">Aug 2021 – May 2024</div>
+      </div>
+      <div class="item">
+        <div class="org">California State University, Chico</div>
+        <div class="indent">Bachelor of Science — Mechatronics, Robotics and Automation Engineering</div>
+        <div class="dates">Aug 2013 – May 2018</div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+
+      <div class="item">
+        <div class="org">San Diego State University</div>
+        <div class="role">Graduate Research Assistant III</div>
+        <p class="small">
+          At the DSIM Lab, I collaborated with a research team dedicated to pursuing novel control theory approaches for autonomous systems,
+          particularly focusing on the development of smart autonomous mobile robots. I led the development of an adaptive control approach—extremum seeking control (ESC)—implemented in ROS2 for mobile robot motion.
+          The robot had no prior map knowledge; using real‑time continuous optimization, it perturbed its motion toward a designer‑specified source (e.g., an acoustic signal).
+          This project compared prior methods with our novel design, showcasing improved efficiency in reaching an optimal point (unknown a priori). By actuating a sensor on a servo, we expanded local search,
+          enabling faster source localization via derivative estimates from a bounded periodic dither. Results in light and sound fields demonstrated practical impact.
+        </p>
+
+        <div class="role">Teaching Assistant</div>
+        <p class="small">
+          <span class="pill">Systems Modeling &amp; Analysis (Spring ’24)</span> Supported an intro controls course covering lumped-parameter modeling, dynamic response prediction, and feedback control for closed-loop stability and performance.
+          <br><span class="pill">Robot Modeling &amp; Control (Fall ’23)</span> Assisted with forward/inverse kinematics, dynamics, sensor/actuator integration; guided labs/projects using MATLAB and ROS for modeling and simulation.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="org">The Construct</div>
+        <div class="role">Course Designer (Freelance)</div>
+        <p class="small">
+          Optimized and debugged ROS2 + Gazebo simulations to match student learning curves. Built a CNN-based perception pipeline for a simulated security robot, integrating ROS2 messaging and Gazebo environments.
+          Designed hands-on workflows that connect computer vision and robotics, enabling learners to implement, train, and evaluate neural networks in realistic robotic tasks.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="org">Honeywell Process Solutions — San Bruno</div>
+        <div class="role">Field Engineer II</div>
+        <div class="dates">Apr 2019 – Mar 2022</div>
+        <p class="small">
+          Principal technical expert for HVAC and commercial Fire/Security/Access systems. Led troubleshooting at startup, programmed building management controls in Honeywell software, and mentored junior reps and subcontractors.
+          Drove reliability and operational efficiency improvements across deployments.
+        </p>
+
+        <figure class="image-row">
+          <img src="./images/control_panel.png" alt="Control panel photo from Honeywell project">
+          <img src="./images/honeywel-controller.png" alt="Honeywell controller device">
+        </figure>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="item">
+        <div class="role">Thesis Project — TurtleBot3 Sensor‑Actuated Source Seeking</div>
+        <p class="small">
+          Using a TurtleBot3 with an added servo-actuated rotating sensor, I implemented ESC-based source seeking for light and sound fields.
+          The rotating sensor performs local exploration, enabling derivative estimation of the scalar field and steering a nonholonomic vehicle
+          toward the source. Convergence was defined as reaching within 0.5 m of the source. Hardware: custom 3D‑printed mount (modeled in Onshape),
+          photoresistor for light intensity, Raspberry Pi 4 for onboard compute.
+        </p>
+        <div class="images-inline">
+          <img class="thumb" src="./images/light-source.png" alt="Light source simulation thumbnail">
+          <img class="thumb" src="./images/rotating-frame.png" alt="Rotating frame on TurtleBot3">
+        </div>
+        <div class="media" style="margin-top:8px;">
+          <a href="https://github.com/mattdamon1868/portfolio-djk/blob/main/videos/light-source-seeking-rotating-0-degree.mp4" target="_blank" rel="noopener">▶ Watch the demo video</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="role">Course Design — Deep Learning for Robotics</div>
+        <p class="small">
+          Built multi‑part curriculum with Gazebo and ROS that teaches perception with CNNs and end‑to‑end robotics workflows.
+          Learners can prototype algorithms, build worlds, and test methods without buying hardware.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="role">Undergrad Project — Pet‑Waste Collector Robot</div>
+        <p class="small">
+          Autonomous robot for detecting and collecting pet waste. Achieved ~89% classification accuracy via computer vision;
+          developed a novel spike‑puck pickup mechanism that absorbs waste without vacuuming or scooping.
+        </p>
+        <div class="images-inline">
+          <img class="thumb" src="./images/pet_robot.jpeg" alt="Pet waste collector robot">
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ol class="pub-list">
+        <li id="pub-1">
+          James‑Kavanaugh D., McNamee P. (2025).
+          <em>Servos for Local Map Exploration Onboard Nonholonmic Vehicles for Extremum Seeking</em>.
+          Published to the IEEE controls systems and transactions journal. <em>IEEE Transactions and Control Systems</em>.
+          <details>
+            <summary>Abstract</summary>
+            <p>
+              Extremum seeking control (ESC) often employs perturbation‑based estimates of derivatives for some sensor field or cost function.
+              These estimates are generally obtained by simply multiplying the output of a single‑unit sensor by some time‑varying function.
+              Previous work has focused on sinusoidal perturbations to generate derivative estimates with results for arbitrary order derivatives of scalar maps or higher order derivatives of multivariable maps.
+              This work extends the perturbations from sinusoidal to bounded periodic or almost periodic functions and considers multivariable maps.
+              A necessary and sufficient condition is given for determining if time‑varying functions exist for estimating arbitrary order derivatives of multivariable maps for any given bounded periodic or almost periodic dither signal.
+              These results are then used in a source seeking controller for a nonholonomic vehicle with a sensor actuated by servo.
+              The conducted simulation and real‑world experiments demonstrate that by distributing the local map exploration to a servo,
+              the nonholonomic vehicle was able to achieve a faster convergence to the source.
+            </p>
+          </details>
+        </li>
+      </ol>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Dylan James‑Kavanaugh
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
